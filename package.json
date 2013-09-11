@@ -1,0 +1,42 @@
+{
+  "name": "nor-mailer",
+  "version": "0.0.1",
+  "description": "Asynchronous HTML email sending with Markdown formating done right",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha -R spec tests/test-*.js"
+  },
+  "directories": {
+    "test": "tests",
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sendanor/nor-mailer.git"
+  },
+  "keywords": [
+    "email",
+    "mail",
+    "html",
+    "markdown",
+    "send"
+  ],
+  "author": "Jaakko-Heikki Heusala <jheusala@iki.fi>",
+  "license": "MIT",
+  "bugs": {
+    "mail" : "info@sendanor.com",
+    "web" : "https://github.com/Sendanor/nor-mailer/issues"
+  },
+  "dependencies": {
+    "q": "*",
+    "nor-extend": "*"
+  },
+  "devDependencies": {
+    "lint": "*",
+    "mocha": "*",
+    "nor-is": "*"
+  },
+  "engines": {
+    "node": ">=0.8"
+  }
+}

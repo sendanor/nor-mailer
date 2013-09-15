@@ -5,6 +5,13 @@ Asynchronous HTML email sending with Markdown formating.
 
 This library is in an early development state and the API might change any time.
 
+We are using:
+
+* [nodemailer](https://github.com/andris9/Nodemailer#nodemailer) for actual email sending
+* [marked](https://github.com/chjj/marked) for Markdown to HTML conversion
+* [q](https://github.com/kriskowal/q) for promises
+* [nor-extend](https://github.com/sendanor/nor-extend) for making Q promises chainable
+
 mailer.send(opts)
 -----------------
 

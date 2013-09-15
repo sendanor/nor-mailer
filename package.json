@@ -1,7 +1,7 @@
 {
   "name": "nor-mailer",
-  "version": "0.0.1",
-  "description": "Asynchronous HTML email sending with Markdown formating done right",
+  "version": "0.1.0",
+  "description": "Asynchronous HTML email sending with Markdown formating",
   "main": "lib/index.js",
   "scripts": {
     "test": "mocha -R spec tests/test-*.js"

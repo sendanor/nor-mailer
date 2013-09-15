@@ -28,13 +28,19 @@
     "web" : "https://github.com/Sendanor/nor-mailer/issues"
   },
   "dependencies": {
+    "SyntaxHighlighter": "git://github.com/alexgorbatchev/SyntaxHighlighter.git#master",
+    "marked": "git://github.com/chjj/marked.git#master",
+    "pygments": "git://github.com/visionmedia/node-pygments.git#master",
+    "nodemailer": "*",
     "q": "*",
     "nor-extend": "*"
   },
   "devDependencies": {
     "lint": "*",
     "mocha": "*",
-    "nor-is": "*"
+    "nor-is": "*",
+    "nor-fs": "*",
+    "prettified": "*"
   },
   "engines": {
     "node": ">=0.8"

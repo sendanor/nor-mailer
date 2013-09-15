@@ -3,7 +3,7 @@ nor-mailer
 
 Asynchronous HTML email sending with Markdown formating.
 
-This library is in an early development state and the API might change any time.
+*Warning!* This library is in an early development state and the API might change any time.
 
 We are using:
 

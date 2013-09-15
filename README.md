@@ -46,7 +46,7 @@ mailer.send({
 	to:'jhh@example.com',
 	subject:'Example message',
 	body: body
-}).then(function() {
+}).close().then(function() {
 	console.log('Email sent successfully.');
 }).fail(function(err) {
 	console.error('Error: ' + err);

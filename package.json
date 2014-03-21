@@ -25,7 +25,7 @@
   "license": "MIT",
   "bugs": {
     "mail" : "info@sendanor.com",
-    "web" : "https://github.com/Sendanor/nor-mailer/issues"
+    "url" : "https://github.com/Sendanor/nor-mailer/issues"
   },
   "dependencies": {
     "marked": "git://github.com/chjj/marked.git#master",

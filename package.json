@@ -1,6 +1,6 @@
 {
   "name": "nor-mailer",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "Asynchronous HTML email sending with Markdown formating",
   "main": "lib/index.js",
   "scripts": {
@@ -32,7 +32,7 @@
     "nor-is"     : ">= 0.1.14 < 0.2.0",
     "nor-fs"     : ">= 0.1.10  < 0.2.0",
     "prettified" : ">= 0.0.7  < 0.1.0",
-    "nodemailer" : ">= 0.6.1  < 0.7.0",
+    "nodemailer" : ">= 0.6.5  < 0.7.0",
     "q"          : ">= 1.0.1  < 1.2.0",
     "marked"     : "git://github.com/chjj/marked.git#master"
   },

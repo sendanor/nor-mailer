@@ -1,6 +1,6 @@
 {
   "name": "nor-mailer",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "description": "Asynchronous HTML email sending with Markdown formating",
   "main": "lib/index.js",
   "scripts": {

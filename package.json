@@ -1,6 +1,6 @@
 {
   "name": "nor-mailer",
-  "version": "0.1.15",
+  "version": "0.1.16",
   "description": "Asynchronous HTML email sending with Markdown formating",
   "main": "lib/index.js",
   "scripts": {
@@ -28,9 +28,9 @@
     "url" : "https://github.com/Sendanor/nor-mailer/issues"
   },
   "dependencies": {
-    "nor-extend" : ">= 0.1.27 < 0.2.0",
+    "nor-extend" : ">= 0.1.28 < 0.2.0",
     "nor-is"     : ">= 0.1.16 < 0.2.0",
-    "nor-fs"     : ">= 0.1.15  < 0.2.0",
+    "nor-fs"     : ">= 0.1.16  < 0.2.0",
     "prettified" : ">= 0.0.7  < 0.1.0",
     "nodemailer" : ">= 0.6.5  < 0.7.0",
     "q"          : ">= 1.0.1  < 1.2.0",

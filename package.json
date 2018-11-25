@@ -1,6 +1,6 @@
 {
   "name": "nor-mailer",
-  "version": "0.1.20",
+  "version": "1.0.0",
   "description": "Asynchronous HTML email sending with Markdown formating",
   "main": "lib/index.js",
   "scripts": {
@@ -24,21 +24,21 @@
   "author": "Jaakko-Heikki Heusala <jheusala@iki.fi>",
   "license": "MIT",
   "bugs": {
-    "mail" : "info@sendanor.com",
-    "url" : "https://github.com/Sendanor/nor-mailer/issues"
+    "mail": "info@sendanor.com",
+    "url": "https://github.com/Sendanor/nor-mailer/issues"
   },
   "dependencies": {
-    "nor-extend" : ">= 0.1.32 < 0.2.0",
-    "nor-is"     : ">= 0.1.18 < 0.2.0",
-    "nor-fs"     : ">= 0.1.20  < 0.2.0",
-    "prettified" : ">= 0.0.7  < 0.1.0",
-    "nodemailer" : ">= 0.6.5  < 0.7.0",
-    "q"          : ">= 1.0.1  < 1.2.0",
-    "marked"     : "git://github.com/chjj/marked.git#master"
+    "marked": "git://github.com/chjj/marked.git#master",
+    "nodemailer": "^4.7.0",
+    "nor-extend": "^1.1.1",
+    "nor-fs": "^1.0.0",
+    "nor-is": "^1.0.1",
+    "prettified": ">= 0.0.7  < 0.1.0",
+    "q": ">= 1.0.1  < 1.2.0"
   },
   "devDependencies": {
     "lint": "*",
-    "mocha": "*"
+    "mocha": "^5.2.0"
   },
   "engines": {
     "node": ">=0.8"

@@ -1,3 +1,5 @@
+***DEPRECATED:*** This library has moved to [@norjs/mailer](https://github.com/norjs/mailer) (with some API changes).
+
 nor-mailer
 ==========
 
